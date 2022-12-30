@@ -37,18 +37,17 @@ public class SavingsAccount extends BankAccount{
         return super.getBalance()*(Math.pow(Amt,power) - 1);
     }
 
-    public double getRate() {
-        return rate;
-    }
-    public void setRate(double rate) {
-        this.rate = rate;
-    }
+//    public double getRate() {
+//        return rate;
+//    }
+//    public void setRate(double rate) {
+//        this.rate = rate;
+//    }
 
-    public double getMaxWithdrawalLimit() {
-        return maxWithdrawalLimit;
-    }
-
-    public void setMaxWithdrawalLimit(double maxWithdrawalLimit) {
-        this.maxWithdrawalLimit = maxWithdrawalLimit;
-    }
+//    public double getMaxWithdrawalLimit() {
+//        return maxWithdrawalLimit;
+//    }
+//    public void setMaxWithdrawalLimit(double maxWithdrawalLimit) {
+//        this.maxWithdrawalLimit = maxWithdrawalLimit;
+//    }
 }

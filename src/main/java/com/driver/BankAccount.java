@@ -6,6 +6,7 @@ public class BankAccount {
     private double balance;
     private double minBalance;
 
+    public BankAccount(){}
     public BankAccount(String name, double balance, double minBalance) {
 
     }
